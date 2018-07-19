@@ -1,0 +1,65 @@
+{
+  "_from": "fetch-awesome",
+  "_id": "fetch-awesome@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-7uWXtDUgGKrUAHhl57cmngxh0oahJ3rf1adyvwvqWjQS4xzH+zweku8iGdDwkfC6afpctxX5lGqxrBvbpRApww==",
+  "_location": "/fetch-awesome",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fetch-awesome",
+    "name": "fetch-awesome",
+    "escapedName": "fetch-awesome",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fetch-awesome/-/fetch-awesome-1.0.0.tgz",
+  "_shasum": "e3bfd8284084af65481b18376e87ecc26576137a",
+  "_spec": "fetch-awesome",
+  "_where": "/Users/admin/projects",
+  "author": {
+    "name": "nima moradi"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-native-module-check": "^2.6.2",
+    "react-native-module-guard": "^2.6.2",
+    "yarn": "^1.7.0"
+  },
+  "deprecated": false,
+  "description": "custum fetch for react-native with time-out and bad header and retry support ",
+  "devDependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.47.1"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "fetch",
+    "retry",
+    "timeout",
+    "module",
+    "native",
+    "package",
+    "react-native"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fetch-awesome",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "clean": "rm -rf build",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "version": "2.0.2"
+}
