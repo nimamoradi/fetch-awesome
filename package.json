@@ -15,6 +15,10 @@
     "saveSpec": null,
     "fetchSpec": "latest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimamoradi/fetch-awesome.git"
+  },
   "_requiredBy": [
     "#USER",
     "/"
